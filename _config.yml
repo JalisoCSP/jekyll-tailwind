@@ -35,6 +35,7 @@ plugins:
   - jekyll-feed
   - jekyll-postcss
   - jekyll-purgecss
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
