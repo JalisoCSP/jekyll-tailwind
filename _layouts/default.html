@@ -5,5 +5,9 @@
   <link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>
-  {{ content }}
+  {% include header.html %}
+  <div class="flex flex-wrap p-8">
+    {{ content }}
+  </div>
+  {% include footer.html %}
 </body>
