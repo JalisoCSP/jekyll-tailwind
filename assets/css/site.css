@@ -22,3 +22,60 @@ h3 {
 svg {
   @apply inline;
 }
+
+.markdown {
+  @apply leading-normal bg-white;
+}
+
+/* Blockquotes */
+.markdown blockquote {
+  @apply border-l-4 border-teal-500 italic my-8 pl-8;
+}
+
+.markdown code {
+  @apply break-words whitespace-pre-wrap;
+}
+
+.markdown pre {
+  @apply bg-gray-900 rounded text-white font-mono text-base p-4 my-2;
+}
+
+.markdown pre code {
+  @apply block bg-transparent p-0 overflow-visible rounded-none;
+}
+
+.markdown a {
+  @apply underline target-blank;
+}
+
+/* Lists */
+.markdown ul,
+.markdown ol {
+  @apply mb-4 ml-8;
+}
+
+.markdown li>p,
+.markdown li>ul,
+.markdown li>ol {
+  @apply mb-0;
+}
+
+.markdown ol {
+  @apply list-decimal;
+}
+
+.markdown ul {
+  @apply list-disc;
+}
+
+/* Tables */
+.markdown td,
+.markdown th {
+  @apply px-2 py-1 border border-gray-400;
+}
+.markdown tr:nth-child(odd) {
+  @apply bg-gray-100;
+}
+.markdown table {
+  @apply mb-6;
+}
