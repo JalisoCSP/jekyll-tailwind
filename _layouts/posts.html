@@ -12,7 +12,6 @@
         <p class="text-sm md:text-base text-teal-500 font-bold">{{ page.date | date_to_long_string | upcase }} </p>
         {% if page.tags %} 
         <p class="text-sm md:text-base text-teal-500 font-bold">
-            /
             {% for tag in page.tags %}
                 {{ tag | upcase }} /
             {% endfor %}
