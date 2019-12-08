@@ -45,7 +45,7 @@ svg {
 }
 
 .markdown a {
-  @apply underline target-blank;
+  @apply underline;
 }
 
 /* Lists */
