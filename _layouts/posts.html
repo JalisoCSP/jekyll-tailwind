@@ -11,15 +11,30 @@
     <!--Title-->
     <div class="text-center pt-16 md:pt-32">
         <p class="text-sm md:text-base text-teal-500 font-bold">{{ page.date | date_to_long_string | upcase }} </p>
-        {% if page.tags %}
-        <p class="text-sm md:text-base text-teal-500 font-bold">
-            /
-            {% for tag in page.tags %}
-            {{ tag | upcase }} /
-            {% endfor %}
-
-            {% endif %}
-        </p>
+                  <p class="text-xxs md:text-base font-bold">
+                    {% if post %}
+                        {% assign tags = post.tags %}
+                    {% else %}
+                        {% assign tags = page.tags %}
+                    {% endif %}
+                    {% for tag in tags %}
+                    <button class="bg-teal-500 text-xs hover:bg-blue-900 text-white font-bold rounded">
+                        <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag | upcase}}</a>
+                        {% unless forloop.last %}&nbsp;{% endunless %}
+                      </button>
+                    {% endfor %}
+                </p>
+                <div class="post-categories font-bold mt-6 text-blue-900 text-xl">
+                    {% if post %}
+                      {% assign categories = post.categories %}
+                    {% else %}
+                      {% assign categories = page.categories %}
+                    {% endif %}
+                    {% for category in categories %}
+                    <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category | upcase}}</a>
+                    {% unless forloop.last %}&nbsp;{% endunless %}
+                    {% endfor %}
+                  </div>
         <h1 class="font-bold break-normal text-3xl md:text-5xl">{{ page.title }}</h1>
     </div>
 
