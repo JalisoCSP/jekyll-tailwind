@@ -58,7 +58,7 @@ css_dir: "assets/css"
 #   - vendor/ruby/
 
 include:
-  - _redirects
+  - redirects
 
 collections:
   posts:
