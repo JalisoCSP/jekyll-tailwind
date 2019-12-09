@@ -6,6 +6,7 @@ categories: [article]
 tags: [github]
 backgroundurl: https://images.unsplash.com/photo-1556075798-4825dfaaf498
 time: 1 min
+lang: en
 ---
 
 Watching the youtube video *[A Branch in Time (a story about revision histories)](https://www.youtube.com/watch?v=1NoNTqank_U)* by Tekin Süleyman provided invaluable insight on how to `git better`. 

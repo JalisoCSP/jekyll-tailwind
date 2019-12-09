@@ -6,6 +6,7 @@ categories: [promoted, article, featured]
 tags: [python, data visualisation]
 backgroundurl: https://miro.medium.com/max/1600/1*bMt1xhiVw9HEyFy-6ODNSQ.jpeg
 time: 7 min
+lang: en
 ---
 
 During a recent NLP project, I came across an [article where word clouds were created in the shape of US Presidents using words from their inauguration speeches](http://keyonvafa.com/inauguration-wordclouds/). Whilst I had used word clouds to visualise the most frequent words in a document, I’d not considered using this with a mask to represent the topic or subject. This got me thinking...

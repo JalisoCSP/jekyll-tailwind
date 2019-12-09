@@ -6,6 +6,7 @@ categories: [promoted, article]
 tags: [python, data science] 
 backgroundurl: https://miro.medium.com/max/1500/1*d7UE4B96x_fs1ezUx8YfBQ.png
 time: 9 min
+lang: en
 ---
 One of the first tasks that I was given in my job as a Data Scientist involved Web Scraping. This was a completely alien concept to me at the time, gathering data from websites using code, but is one of the most logical and easily accessible sources of data. After a few attempts, web scraping has become second nature to me and one of the many skills that I use almost daily.
 <br><br>
