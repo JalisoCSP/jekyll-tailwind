@@ -32,7 +32,6 @@ A revised version of the Data Science pyramid was introduced with the foundation
 
 > Data Science is 95% exploring data, 5% Machine Learning
 
-<!--![Data Science](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F79266727%2F276295144661%2F1%2Foriginal.20191104-093358?w=800&auto=compress&rect=0%2C0%2C1024%2C512&s=cfd0c07ed61c0ebc5d6e51dcd4b19320)-->
 
 There are also many different paths into data science and Joe has summarised these in an article on [Medium](https://medium.com/@JosephAllen1234/the-data-scientists-ive-met-c88478d3632b).
 <br><br>
@@ -58,4 +57,6 @@ After a short break, the audience asked John & Joseph questions with some fascin
 
 Overall, it was a brilliant evening, thanks to John and Joseph for coming along to TechNomads and sharing your expertise and thanks everyone for coming! I certainly learned a lot and if you couldn't attend, be sure to check out the slides!
 <br><br>
-You can find [John](https://twitter.com/jaspajjr) and [Joseph](https://twitter.com/JosephAllen1234) and [PDFTA](https://twitter.com/PDFTA_data) on Twitter. They also co-organise [PyDataMCR](https://twitter.com/pydatamcr) where they have monthly meetups as well as monthly Code Nights to bring your questions and help others with theirs!
+You can find [John](https://twitter.com/jaspajjr), [Joseph](https://twitter.com/JosephAllen1234) and [PDFTA](https://twitter.com/PDFTA_data) on Twitter. They also co-organise [PyDataMCR](https://twitter.com/pydatamcr) where they have monthly meetups as well as monthly Code Nights to bring your questions and help others with theirs!
+<br><br>
+This article is also published on [medium](https://medium.com/@_kaparker/technomads-data-science-7bd1aef21d45?source=friends_link&sk=03db30382228da0e2d660711b0ff016a).
