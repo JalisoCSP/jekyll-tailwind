@@ -56,4 +56,4 @@ After a short break, the audience asked John & Joseph questions with some fascin
 
 Overall, it was a brilliant evening, thanks to John and Joseph for coming along to TechNomads and sharing your expertise and thanks everyone for coming! I certainly learned a lot and if you couldn't attend, be sure to check out the slides!
 <br><br>
-You can find John and Joseph on Twitter and their Data Consultancy company PDFTA website is here. They also organise PyDataMCR where they have monthly meetups as well as monthly Code Nights to bring your questions and help others with theirs!
+You can find [John](https://twitter.com/jaspajjr) and [Joseph](https://twitter.com/JosephAllen1234) and [PDFTA](https://twitter.com/PDFTA_data) on Twitter. They also organise [PyDataMCR](https://twitter.com/pydatamcr) where they have monthly meetups as well as monthly Code Nights to bring your questions and help others with theirs!
