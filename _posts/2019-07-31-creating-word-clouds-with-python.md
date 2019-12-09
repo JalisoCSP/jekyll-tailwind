@@ -7,6 +7,7 @@ tags: [python, data visualisation]
 backgroundurl: https://miro.medium.com/max/1600/1*bMt1xhiVw9HEyFy-6ODNSQ.jpeg
 time: 7 min
 lang: en
+description: During an NLP project I created word clouds to visualise frequent words in a document. This got me thinking how this could apply to other datasets including visualising the most frequent words from characters of Game of Thrones.
 ---
 
 During a recent NLP project, I came across an [article where word clouds were created in the shape of US Presidents using words from their inauguration speeches](http://keyonvafa.com/inauguration-wordclouds/). Whilst I had used word clouds to visualise the most frequent words in a document, I’d not considered using this with a mask to represent the topic or subject. This got me thinking...

@@ -7,6 +7,7 @@ tags: [data science, technomads]
 backgroundurl: https://cdn.pixabay.com/photo/2015/09/18/11/38/surface-945444_960_720.jpg
 time: 3 min
 lang: en
+description: The focus of TechNomads November meetup was Data Science, where we were joined by guest speakers Joseph Allen and John Carney who gave us an introduction to Data Science followed by a Q&A.
 ---
 
 On Monday 25th November we held our monthly TechNomads meetup where we focussed on Data Science. Joseph Allen & John Carney, Data Scientists based in Manchester, visited us at Liverpool Science Park to give an introduction to Data Science followed by a Q&A session. They provided fascinating insight drawn from their experience and shared plenty of tips and advice with us. The audience was made up of a mix of people working with data, including researchers, students and analysts as well as developers, aspiring data scientists and people working on side projects.

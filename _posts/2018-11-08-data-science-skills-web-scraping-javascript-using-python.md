@@ -7,6 +7,7 @@ tags: [python, data science]
 backgroundurl: https://miro.medium.com/max/1000/1*8OO_rM6eZgNdDaNtzTEC3g.png
 time: 11 min
 lang: en
+description: Web pages that use javascript can be more difficult to scrape. This tutorial introduces different techniques and an example of web scraping javascript using python.
 ---
 
 There are different ways of scraping web pages using python. In my previous article, I gave an introduction to web scraping by using the `libraries:requests` and `BeautifulSoup`. However, many web pages are dynamic and use JavaScript to load their content. These websites often require a different approach to gather the data.

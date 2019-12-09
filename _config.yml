@@ -35,6 +35,7 @@ plugins:
   - jekyll-postcss
   - jekyll-purgecss
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 css_dir: "assets/css"
 # Exclude from processing.
