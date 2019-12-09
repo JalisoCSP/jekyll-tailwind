@@ -59,6 +59,10 @@ css_dir: "assets/css"
 
 include:
   - redirects
+include: [redirects]
+include:
+  - _redirects
+include: [_redirects]
 
 collections:
   posts:
