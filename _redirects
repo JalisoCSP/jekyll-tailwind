@@ -1,2 +1,2 @@
-# Redirect netlify to primary domain
-kaparker.netlify.com   kaparker.com
+# Redirect default Netlify subdomain to primary domain
+https://kaparker.netlify.com/* https://kaparker.com/:splat 301!
