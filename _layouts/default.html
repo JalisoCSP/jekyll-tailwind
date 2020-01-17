@@ -3,11 +3,12 @@
   <meta charset="utf-8">
   {% seo %}
   <link rel="stylesheet" href="/assets/css/site.css">
+  <link rel="shortcut icon" href="/favicon.ico">
 </head>
-<body>
+<body class="bg-gray-100 leading-normal tracking-normal">
   {% include header.html %}
-  <div class="flex flex-wrap min-h-screen">
-    {{ content }}
+	<div class="container w-full md:max-w-3xl mx-auto pt-6 mb-6">
+        {{ content }}
   </div>
   {% include footer.html %}
 </body>
