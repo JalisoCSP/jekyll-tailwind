@@ -11,21 +11,19 @@
 
     <!--Title-->
     <div class="text-center pt-16 md:pt-32">
-        <p class="text-sm md:text-base text-teal-500 font-bold">{{ page.date | date_to_long_string | upcase }} </p>
-                  <p class="text-xxs md:text-base font-bold">
+        <p class="text-sm md:text-base text-teal-500 font-bold">{{ page.date | date_to_long_string | upcase }} <span class="text-gray-900">/</span>
                     {% if post %}
                         {% assign tags = post.tags %}
                     {% else %}
                         {% assign tags = page.tags %}
                     {% endif %}
                     {% for tag in tags %}
-                    <button class="bg-teal-500 text-xs hover:bg-blue-900 text-white font-bold rounded">
-                        <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag | upcase}}</a>
-                        {% unless forloop.last %}&nbsp;{% endunless %}
-                      </button>
+                    <button class="bg-teal-500 text-xs hover:bg-blue-900 text-white font-bold rounded px-2">
+                        <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag | upcase}}</a></button>
+                        <!--{% unless forloop.last %}&nbsp;{% endunless %}-->
                     {% endfor %}
                 </p>
-                <div class="post-categories font-bold mt-6 text-blue-900 text-xl">
+                <!--<div class="post-categories font-bold mt-6 text-blue-900 text-xl">
                     {% if post %}
                       {% assign categories = post.categories %}
                     {% else %}
@@ -35,7 +33,7 @@
                     <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category | upcase}}</a>
                     {% unless forloop.last %}&nbsp;{% endunless %}
                     {% endfor %}
-                  </div>
+                  </div>-->
         <h1 class="font-bold break-normal text-3xl md:text-5xl">{{ page.title }}</h1>
     </div>
 
@@ -54,8 +52,22 @@
                     <!--/ Post Content-->
                 </div>
 
+            <!--Subscribe-->
+            <div class="container px-20">
+                <div class="font-sans bg-white rounded-lg shadow-md p-4 text-center">
+                    <h2 class="font-bold break-normal text-xl md:text-3xl">✨Subscribe to my Newsletter✨</h2>
+                    <h3 class="font-bold break-normal font-normal text-gray-600 text-sm md:text-base">Get the latest posts delivered right to your inbox</h3>
+                    <div class="w-full text-center pt-4">
+                            <div class="max-w-xl mx-auto p-1 pr-0 flex flex-wrap items-center">
+                                <a href="https://kaparker.substack.com/" class="flex-1 mt-4 block md:inline-block appearance-none bg-teal-500 text-white text-base font-semibold tracking-wider uppercase py-4 rounded shadow hover:bg-teal-400">Subscribe</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Subscribe-->
             <!--Author-->
             <div class="flex w-full items-center font-sans p-8 md:p-24">
+            
                     <img class="w-10 h-10 rounded-full mr-4"
                         src="https://avatars2.githubusercontent.com/u/19613406?s=400&u=c2c6651fdbde556cc8868bfea08f94a48f0f4b1d&v=4"
                         alt="Avatar of Author">
